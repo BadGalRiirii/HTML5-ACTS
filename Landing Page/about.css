@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    scroll-behavior: smooth; /* Smooth Scrolling */
+}
+
+/* Header & Navigation */
+header {
+    background: #000;
+    padding: 20px 0;
+    border-bottom: 4px solid #ff007f; /* Neon Pink */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #00ff7f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ff007f;
+    text-shadow: 0 0 8px #ff007f;
+}
+
+/* About Section */
+.about-container {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #00ff7f;
+    box-shadow: 0 0 12px rgba(0, 255, 127, 0.8);
+}
+
+.profile h2 {
+    color: #ff007f;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.sections-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #222;
+    padding: 20px;
+    width: 260px;
+    border: 2px solid #ff007f;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 0, 127, 0.8);
+}
+
+/* Footer */
+footer {
+    background: #000;
+    padding: 20px 0;
+    border-top: 4px solid #ff007f;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+}
+
+footer a {
+    color: #ff007f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #00ff7f;
+    text-shadow: 0 0 8px #00ff7f;
+}
+
+@media (max-width: 800px) {
+    .sections-container {
+        flex-wrap: wrap;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
