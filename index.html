@@ -10,61 +10,90 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            <h1>Rehana's Portfolio</h1>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#projects">Activities</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav>
+        <h1>Rehana's Portfolio</h1>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#projects">Activities</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <section class="hero">
-        <div class="hero-text">
-            <h2>Hi,I'm <span class="highlight">Rehana Ruilan</span></h2>
-            <p> From BSIT-3R1 </p>
-            <a href="#projects" class="btn">View My Work</a>
+<section class="hero">
+    <div class="hero-text">
+        <h2>Hi, I'm <span class="highlight">Rehana Ruilan</span></h2>
+        <p>From BSIT-3R1</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <span class="pixel-icon">🕹️</span>
+            <h3>PIT 1</h3>
+            <p>Online Portfolio HTML Structure</p>
+            <a href="LAB_3.html" class="project-btn">View Activity</a>
         </div>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-container">
-            <div class="project-card">
-                <span class="pixel-icon">🕹️</span> <!-- Pixelated Aesthetic Icon -->
-                <h3>PIT 1</h3>
-                <p>Online Portfolio HTML Structure</p>
-                <a href="CV Activity.html" class="project-btn">View Activity</a>
-            </div>
-            <div class="project-card">
-                <span class="pixel-icon">🎮</span> <!-- Another pixelated icon -->
-                <h3>PIT 2</h3>
-                <p>Online Portfolio with CSS Styling</p>
-                <a href="CSS-ACT.html" class="project-btn">View Activity</a>
-            </div>
-            <div class="project-card">
-                <span class="pixel-icon">💾</span> <!-- Retro pixel-style icon -->
-                <h3>PIT 3</h3>
-                <p>Empty Slot</p>            
-            </div>
+        <div class="project-card">
+            <span class="pixel-icon">🎮</span>
+            <h3>PIT 2</h3>
+            <p>Online Portfolio with CSS Styling</p>
+            <a href="LAB_4.html" class="project-btn">View Activity</a>
         </div>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </section>
+        <div class="project-card">
+            <span class="pixel-icon">💾</span>
+            <h3>PIT 3</h3>
+            <p>Adding "Subjects Taken" to Your Portfolio</p>
+            <a href="LAB_5.html" class="project-btn">View Activity</a>
+        </div>
+    </div>
 
-    <footer>
-        <p>&copy; 2025 Rehana. All rights reserved.</p>
-    </footer>
+    <h2>More Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <span class="pixel-icon">🖥️</span>
+            <h3>PIT 4</h3>
+            <p>Adding a Search Feature</p>
+            <a href="SearchFeature/search-index.html" class="project-btn">View Activity</a>
+        </div>
+        <div class="project-card">
+            <span class="pixel-icon">📂</span>
+            <h3>PIT 5</h3>
+            <p>Empty Slot</p>
+            <a href="LAB_7.html" class="project-btn">View Activity</a>
+        </div>
+        <div class="project-card">
+            <span class="pixel-icon">🌐</span>
+            <h3>PIT 6</h3>
+            <p>Empty Slot</p>
+            <a href="LAB_8.html" class="project-btn">View Activity</a>
+        </div>
+    </div>
 
+    <div>
+        <h2>Courses</h2>
+        <div id="courses-list"></div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Rehana. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

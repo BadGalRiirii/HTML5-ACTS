@@ -173,3 +173,34 @@ footer {
     font-size: 12px;
     border-top: 4px solid #ff007f; /* Neon Pink */
 }
+
+#courses-list h3 {
+    color: #0077b6;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#courses-list h4 {
+    color: #ffdd57;
+    margin-bottom: 5px;
+}
+
+#courses-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#courses-list li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    background: rgba(0, 119, 182, 0.1);
+    padding: 10px;
+    border-left: 5px solid #0077b6;
+    transition: background 0.3s ease-in-out;
+}
+
+#courses-list li:hover {
+    background: #ffdd57;
+    color: #0077b6;
+}

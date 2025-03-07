@@ -1,0 +1,135 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f6f2; 
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(90deg, #0077b6, #0096c7);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 4px 15px rgba(0, 119, 182, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background: #ffdd57;
+    color: teal;
+    box-shadow: 0 4px 12px rgba(0, 119, 182, 0.5);
+}
+
+.page-content {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    border: 3px solid #0077b6;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 119, 182, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 119, 182, 0.3);
+}
+
+.card-header {
+    background: #0077b6;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #0077b6;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+}
+
+#search:focus {
+    border: 2px solid #ffdd57;
+}
+
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px rgba(0, 119, 182, 0.3);
+}
+
+.course-table th {
+    background: #0077b6;
+    color: white;
+    padding: 15px;
+}
+
+.course-table td {
+    padding: 15px;
+    border: 2px solid rgba(0, 119, 182, 0.4);
+}
+
+.course-table tr:nth-child(even) {
+    background: rgba(0, 119, 182, 0.1);
+}
+
+.course-table tr:hover {
+    background: #ffdd57;
+    color: teal;
+    transition: background 0.3s ease-in-out;
+}
+
+footer {
+    background: #0077b6;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
