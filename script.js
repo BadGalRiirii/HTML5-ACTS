@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("courses.json")
+  fetch("https://raw.githubusercontent.com/BadGalRiirii/HTML5-ACTS/main/courses.json")
       .then(response => response.json())
       .then(data => {
         const tableBody = document.querySelector("#courses-list tbody");
